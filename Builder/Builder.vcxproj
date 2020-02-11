@@ -78,6 +78,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Builder.h" />
+    <ClInclude Include="Director.h" />
+    <ClInclude Include="Product.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Builder.cpp" />
+    <ClCompile Include="Director.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Product.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
