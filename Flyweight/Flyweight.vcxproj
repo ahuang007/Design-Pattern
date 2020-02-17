@@ -78,6 +78,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Flyweight.h" />
+    <ClInclude Include="FlyweightFactory.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Flyweight.cpp" />
+    <ClCompile Include="FlyweightFactory.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
