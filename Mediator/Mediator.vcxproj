@@ -78,6 +78,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Colleage.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mediator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Colleage.h" />
+    <ClInclude Include="Mediator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
