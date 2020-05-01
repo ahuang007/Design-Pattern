@@ -78,6 +78,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Aggregate.h" />
+    <ClInclude Include="Iterator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Aggregate.cpp" />
+    <ClCompile Include="Iterator.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
