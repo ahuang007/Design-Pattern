@@ -78,6 +78,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Context.h" />
+    <ClInclude Include="Interpreter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Context.cpp" />
+    <ClCompile Include="Interpreter.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
