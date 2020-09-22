@@ -19,6 +19,7 @@ void Context::OperationInterface(){
 }
 
 bool Context::ChangeState(State* state){
+	delete this->_state;
 	this->_state = state;
 	return true;
 }
