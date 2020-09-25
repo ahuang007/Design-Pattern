@@ -40,6 +40,7 @@ void ConcreteStateA::OperationInterface(Context* con){
 void ConcreteStateA::OperationChangeState(Context* con){
 	OperationInterface(con);
 	this->ChangeState(con, new ConcreteStateB());
+	delete this;
 }
 
 ConcreteStateB::ConcreteStateB(){
